@@ -28,18 +28,18 @@
 
 .hotel-view
   background-color: #fff
-  
+
   flex: 1
 
 
 .detail
+  font-size: 1.4rem //child elements will inhrerit the font size
   display: flex
   padding: 4.5rem
   background-color: var(--color-grey-light-1)
   border-bottom: var(--line)
 
 .description
-  font-size: 1.4rem
   background-color: #fff
   box-shadow: var(--color-shadow-light)
   flex: 0 0 60% // 60% of space
@@ -48,3 +48,7 @@
 
 .user-reviews
   flex: 1 // remain space
+
+  display: flex
+  flex-direction: column
+  align-items: center
